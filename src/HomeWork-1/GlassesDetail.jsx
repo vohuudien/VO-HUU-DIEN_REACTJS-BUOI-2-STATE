@@ -49,9 +49,10 @@ export default class GlassesDetail extends Component {
         // THẺ BACKGROUND
         style={{
           backgroundImage: "url(./glassesImage/background.jpg)",
-          minHeight: "1000px",
-          backgroundSize: "1500px",
+          minHeight: "900px",
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          
         }}
       >
         <div>
@@ -74,8 +75,8 @@ export default class GlassesDetail extends Component {
                   <img
                     style={{
                       width: "150px",
-                      right: "120px",
-                      top: "65px",
+                      right: "116px",
+                      top: "72px",
                       opacity: 0.9,
                     }}
                     className="position-absolute"
@@ -84,7 +85,7 @@ export default class GlassesDetail extends Component {
                   />
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 position-relative">
                 <img
                   style={{ width: "250px" }}
                   src="/glassesImage/model.jpg"
@@ -93,8 +94,8 @@ export default class GlassesDetail extends Component {
                 <img
                   style={{
                     width: "150px",
-                    right: "432px",
-                    top: "150px",
+                    right: "38.5%",
+                    top: "18%",
                     opacity: 0.9,
                   }}
                   className="position-absolute"
